@@ -48,6 +48,10 @@ header nav {
     align-items: center;
 }
 
+.nav-hamburger{
+    display: none;
+}
+
 .nav-icon {
     display: flex;
     justify-content: space-between;
@@ -77,3 +81,108 @@ header nav {
 }
 
 /* banner part start */
+
+.banner{
+    background:  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/banner.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    border-radius: 16px;
+    border-radius: 16px;
+}
+
+.banner-container{
+    padding: 100px 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.banner-content{
+    text-align: center;
+    width: 60%;
+}
+
+.banner-content h2{
+    color: #FFF;
+    font-size: 64px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+.banner-content p{
+    color: #FFF;
+    font-size: 16px;
+    line-height: 26px; 
+    padding-bottom: 40px;
+}
+
+.banner-options{
+    border-radius: 8px;
+    background: rgba(255, 255, 255, 0.30);
+    padding: 16px;
+    gap: 24px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.banner-options input{
+    padding: 15px;
+    outline: 0;
+    border-radius: 8px;
+    border: 0;
+    width: 20%;
+}
+
+.banner-options input::placeholder{
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+}
+
+.banner-options select{
+    padding: 15px;
+    outline: 0;
+    border: 0;
+    border-radius: 8px;
+    color: rgba(19, 19, 24, 0.50);
+    font-size: 16px;
+    width: 20%;
+}
+
+.banner-button{
+    width: 20%;
+}
+
+.banner-button button{
+    padding: 14px 26px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 1px solid transparent;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.banner-button button i{
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (min-width: 992px) and (max-width: 1365px) {
+    
+}
