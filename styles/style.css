@@ -234,6 +234,9 @@ header nav {
 }
 
 /* destination part start */
+#destination{
+    margin-bottom: 100px;
+}
 
 .destination-head {
     width: 50%;
@@ -263,9 +266,40 @@ header nav {
     margin-bottom: 20px;
 }
 
+.overlay-text {
+    position: absolute;
+    top: 0;
+    width: 0%;
+    height: 99%;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+    opacity: 0;
+}
+
+.overlay-text h4 {
+    position: relative;
+    top: 0%;
+    text-align: center;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
 .dgt-first-img {
     border-radius: 16px;
     position: relative;
+}
+
+.dgt-first-img:hover .overlay-text{
+    opacity: 1;
+    width: 100%;
+    transition: 0.4s;
+}
+
+.dgt-first-img:hover .overlay-text h4{
+    top: 50%;
+    transition: 0.4s;
 }
 
 .dgt-second-img {
@@ -273,23 +307,15 @@ header nav {
     position: relative;
 }
 
-.overlay-text {
-    position: absolute;
-    top: 0;
+.dgt-second-img:hover .overlay-text{
+    opacity: 1;
     width: 100%;
-    height: 99%;
-    border-radius: 16px;
-    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+    transition: 0.4s;
 }
 
-.overlay-text h4 {
-    position: relative;
+.dgt-second-img:hover .overlay-text h4{
     top: 50%;
-    text-align: center;
-    color: #FFF;
-    font-size: 28px;
-    font-weight: 800;
-    text-transform: capitalize;
+    transition: 0.4s;
 }
 
 .destination-galley-middle {
@@ -304,14 +330,47 @@ header nav {
     position: relative;
 }
 
+.dgm-first-img:hover .overlay-text{
+    opacity: 1;
+    width: 100%;
+    transition: 0.4s;
+}
+
+.dgm-first-img:hover .overlay-text h4{
+    top: 50%;
+    transition: 0.4s;
+}
+
 .dgm-second-img {
     border-radius: 16px;
     position: relative;
 }
 
+.dgm-second-img:hover .overlay-text{
+    opacity: 1;
+    width: 100%;
+    transition: 0.4s;
+}
+
+.dgm-second-img:hover .overlay-text h4{
+    top: 50%;
+    transition: 0.4s;
+}
+
 .dgm-third-img {
     border-radius: 16px;
     position: relative;
+}
+
+.dgm-third-img:hover .overlay-text{
+    opacity: 1;
+    width: 100%;
+    transition: 0.4s;
+}
+
+.dgm-third-img:hover .overlay-text h4{
+    top: 50%;
+    transition: 0.4s;
 }
 
 .destination-galley-bottom {
@@ -325,9 +384,31 @@ header nav {
     position: relative;
 }
 
+.dgb-first-img:hover .overlay-text{
+    opacity: 1;
+    width: 100%;
+    transition: 0.4s;
+}
+
+.dgb-first-img:hover .overlay-text h4{
+    top: 50%;
+    transition: 0.4s;
+}
+
 .dgb-second-img {
     border-radius: 16px;
     position: relative;
+}
+
+.dgb-second-img:hover .overlay-text{
+    opacity: 1;
+    width: 100%;
+    transition: 0.4s;
+}
+
+.dgb-second-img:hover .overlay-text h4{
+    top: 50%;
+    transition: 0.4s;
 }
 
 .destination-galley img {
@@ -374,7 +455,6 @@ header nav {
         display: block;
         font-size: 24px;
     }
-
 
     .banner {
         padding: 30px 0;
@@ -424,6 +504,63 @@ header nav {
     .popular-container {
         grid-template-columns: repeat(1, 1fr);
     }
+
+    #destination {
+        margin-bottom: 30px;
+    }
+
+    .destination-head {
+        width: 100%;
+        margin: 0 auto;
+        padding-bottom: 30px;
+    }
+
+    .destination-galley-top {
+        display: inline-block;
+        width: 100%;
+        gap: 0;
+        margin-bottom: 0;
+    }
+
+    .destination-galley-top img{
+        width: 100%;
+    }
+
+    .dgt-first-img, .dgt-second-img, .dgm-first-img, .dgm-second-img, .dgm-third-img, .dgb-first-img{
+        margin-bottom: 15px;
+    }
+
+    .destination-galley-middle {
+        display: inline-block;
+        width: 100%;
+        gap: 0;
+        margin-bottom: 0;
+    }
+
+    .destination-galley-middle img{
+        width: 100%;
+    }
+
+    .destination-galley-bottom {
+        display: inline-block;
+        width: 100%;
+        gap: 0;
+        margin-bottom: 0;
+    }
+
+    .destination-galley-bottom img{
+        width: 100%;
+    }
+
+    .overlay-text {
+        width: 100%;
+        opacity: 1;
+    }
+
+    .overlay-text h4 {
+        top: 50%;
+    }
+
 }
 
 /* @media screen and (min-width: 992px) and (max-width: 1365px) {
