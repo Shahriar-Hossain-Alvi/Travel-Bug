@@ -30,11 +30,11 @@ ul, ol, li{
 body {
     max-width: 1366px;
     font-family: 'Mulish', sans-serif;
+    margin: 0 auto;
 }
 
 .container {
-    width: 1280px;
-    border: 1px solid red;
+    max-width: 1140px;
     margin: 0 auto;
 }
 
@@ -56,6 +56,10 @@ header nav {
     display: flex;
     justify-content: space-between;
     gap: 15px;
+}
+
+.nav-icon-left img{
+    width: 100%;
 }
 
 .nav-icon-right h2{
@@ -88,11 +92,10 @@ header nav {
     background-position: center;
     background-size: cover;
     border-radius: 16px;
-    border-radius: 16px;
+    padding: 100px 0;
 }
 
 .banner-container{
-    padding: 100px 0;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -123,6 +126,8 @@ header nav {
     gap: 24px;
     display: flex;
     justify-content: space-between;
+    width: 70%;
+    margin: 0 auto;
 }
 
 .banner-options input{
@@ -167,6 +172,7 @@ header nav {
     margin-right: 5px;
 }
 
+/*  */
 
 
 
@@ -182,7 +188,80 @@ header nav {
 
 
 
+@media only screen and (max-width: 600px){
+    .container{
+        padding: 0 30px;
+    }
 
-@media screen and (min-width: 992px) and (max-width: 1365px) {
-    
+    header nav{
+        padding: 20px 0;
+    }
+
+    .nav-icon-left img {
+        width: 70%;
+    }
+
+    .nav-icon-right h2 {
+       font-size: 24px;
+    }
+
+    .nav-links ul {
+        display: none;
+    }
+
+    .nav-icon{
+        gap: 0;
+    }
+
+    .nav-hamburger{
+        display: block;
+        font-size: 24px;
+    }
+
+
+    .banner {
+        padding: 30px 0;
+    }
+
+    .banner-content {
+        width: 100%;
+        padding: 0 20px;
+    }
+
+    .banner-content h2 {
+        font-size: 24px;
+    }
+
+    .banner-content p {
+        font-size: 14px;
+    }
+
+    .banner-options {
+        flex-direction: column;
+        width: 80%;
+    }
+
+    .banner-options input {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .banner-options select {
+        width: auto;
+        font-size: 16px;
+    }
+
+    .banner-button {
+        width: 100%;
+    }
+
+    .banner-button button {
+        width: 100%;
+        font-size: 16px;
+    }
+
 }
+
+/* @media screen and (min-width: 992px) and (max-width: 1365px) {
+    
+} */
