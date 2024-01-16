@@ -86,6 +86,11 @@ header nav {
     font-weight: 400;
 }
 
+.nav-links li a:hover{
+    color: #FF5400;
+    transition: 0.4s;
+}
+
 /* banner part start */
 
 .banner {
@@ -172,6 +177,13 @@ header nav {
     cursor: pointer;
 }
 
+.banner-button button:hover{
+    background: #FFF;
+    border: 1px solid #FFF;
+    color: #FF5400;
+    transition: 0.4s;
+}
+
 .banner-button button i {
     margin-right: 5px;
 }
@@ -227,6 +239,13 @@ header nav {
     font-size: 16px;
     font-weight: 800;
     cursor: pointer;
+}
+
+.popular-button button:hover{
+    background: #FFF;
+    border: 1px solid #FF5400;
+    color: #FF5400;
+    transition: 0.4s;
 }
 
 .popular-image img {
@@ -581,6 +600,13 @@ header nav {
     cursor: pointer;
 }
 
+.deal-text button:hover{
+    background: #FFF;
+    border: 1px solid #FF5400;
+    color: #FF5400;
+    transition: 0.4s;
+}
+
 .second-deal{
     background: url(../images/deals-2.png);
     background-position: center;
@@ -617,6 +643,13 @@ header nav {
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+}
+
+.deals-button button:hover{
+    background: #FFF;
+    border: 1px solid #FF5400;
+    color: #FF5400;
+    transition: 0.4s;
 }
 
 /* simple part start */
@@ -662,6 +695,13 @@ header nav {
     font-size: 16px;
     font-weight: 700;
     cursor: pointer;
+}
+
+.simple-left button:hover{
+    background: #FFF;
+    border: 1px solid #FF5400;
+    color: #FF5400;
+    transition: 0.4s;
 }
 
 .simple-container{
@@ -744,6 +784,11 @@ header nav {
     font-size: 25px;
 }
 
+.member-text a:hover{
+    color: #FF5400;
+    transition: 0.4s;
+}
+
 /* newsletter part start */
 #newsletter{
     margin-bottom: 100px;
@@ -807,6 +852,13 @@ form button {
     font-weight: 700;
     cursor: pointer;
     width: 100%;
+}
+
+form button:hover{
+    background: #FFF;
+    border: 1px solid #FF5400;
+    color: #FF5400;
+    transition: 0.4s;
 }
 
 .newsletter-img img{
