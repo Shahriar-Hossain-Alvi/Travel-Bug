@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;700&family=Mulish:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;0,1000;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900;1,1000&display=swap');
 
 * {
     margin: 0;
@@ -584,8 +584,67 @@ form button {
     font-weight: 800;
 }
 
+/* footer part start */
+footer{
+    padding: 100px 0;
+    background: rgba(19, 19, 24, 0.05);
+}
 
+.footer-content{
+    text-align: center;
+    width: 60%;
+    margin: 0 auto;
+}
 
+.footer-icon{
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    padding-bottom: 20px;
+}
+
+.footer-icon-right h2 {
+    color: #131318;
+    font-size: 36px;
+    font-weight: 800;
+}
+
+.footer-icon-right span {
+    color: #FF5400;
+}
+
+.footer-text{
+    padding-bottom: 30px;
+}
+
+.footer-text p{
+    color: #5A5A5D;
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+.footer-links{
+    border-bottom: 1px solid rgba(19, 19, 24, 0.10);
+    padding-bottom: 40px;
+}
+
+.footer-links a{
+    margin: 0 15px;
+    color: #131318;
+    font-size: 24px;
+}
+
+.copyright-text{
+    padding-top: 40px;
+}
+
+.copyright-text h4{
+    color: #131318;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+}
 
 
 
@@ -797,6 +856,18 @@ form button {
     .newsletter-img-text {
         bottom: 16%;
         right: 3%;
+    }
+
+    footer{
+        padding: 30px 0;
+    }
+
+    .footer-content {
+        width: 100%;
+    }
+
+    .footer-text {
+        padding: 0 30px 30px 30px;
     }
 }
 
