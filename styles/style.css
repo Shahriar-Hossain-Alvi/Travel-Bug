@@ -490,6 +490,75 @@ header nav {
     width: calc(50% - 20px);
 }
 
+/* team part start */
+#team{
+    margin-bottom: 100px;
+}
+
+.team-head{
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
+    padding-bottom: 30px;
+}
+.team-head h2{
+    color: #131318;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 20px;
+}
+
+.team-members{
+    display: flex;
+    justify-content: space-between;
+    gap: 25px;
+}
+
+.team-members img{
+    width: 100%;
+    border-top-left-radius: 16px;
+    border-top-right-radius: 16px;
+}
+
+.member-one, .member-two, .member-three, .member-four{
+    border-radius: 16px;
+    border: 3px solid transparent;
+}
+
+.member-one:hover{
+    border: 3px solid #FF5400;
+    transition: 0.4s;
+}
+.member-two:hover{
+    border: 3px solid #FF5400;
+    transition: 0.4s;
+}
+.member-three:hover{
+    border: 3px solid #FF5400;
+    transition: 0.4s;
+}
+.member-four:hover{
+    border: 3px solid #FF5400;
+    transition: 0.4s;
+}
+
+.member-text{
+    padding: 10px;
+    text-align: center;
+}
+
+.member-text h3{
+    color: #131318;
+    font-size: 22px;
+    font-weight: 300;
+}
+
+.member-text a{
+    color: #131318;
+    margin: 10px;
+    font-size: 25px;
+}
+
 /* newsletter part start */
 #newsletter{
     margin-bottom: 100px;
@@ -840,6 +909,26 @@ footer{
     #choose-us{
         margin-bottom: 30px;
     }
+
+    #team {
+        margin-bottom: 20px;
+    }
+
+    .team-head {
+        padding-bottom: 15px;
+    }
+
+    .team-members {
+        display: inline;
+        gap: 0;
+    }
+
+    .member-one, .member-two, .member-three, .member-four{
+        border-radius: 16px;
+        border: 3px solid #FF5400;
+        margin: 20px 0;
+    }
+
     #newsletter{
         margin-bottom: 20px;
     }
