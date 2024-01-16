@@ -11,16 +11,18 @@ h3,
 h4,
 h5,
 h6,
-p{
+p {
     margin: 0;
     padding: 0;
 }
 
-a{
+a {
     text-decoration: none;
 }
 
-ul, ol, li{
+ul,
+ol,
+li {
     list-style-type: none;
     margin: 0;
     padding: 0;
@@ -48,7 +50,7 @@ header nav {
     align-items: center;
 }
 
-.nav-hamburger{
+.nav-hamburger {
     display: none;
 }
 
@@ -58,26 +60,26 @@ header nav {
     gap: 15px;
 }
 
-.nav-icon-left img{
+.nav-icon-left img {
     width: 100%;
 }
 
-.nav-icon-right h2{
+.nav-icon-right h2 {
     color: #131318;
     font-size: 36px;
     font-weight: 800;
 }
 
-.nav-icon-right span{
+.nav-icon-right span {
     color: #FF5400;
 }
 
-.nav-links ul{
+.nav-links ul {
     display: flex;
-    gap: 40px;  
+    gap: 40px;
 }
 
-.nav-links li a{
+.nav-links li a {
     color: #424247;
     text-align: center;
     font-size: 18px;
@@ -86,8 +88,8 @@ header nav {
 
 /* banner part start */
 
-.banner{
-    background:  linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/banner.png);
+.banner {
+    background: linear-gradient(180deg, rgba(19, 19, 24, 0.80) 0%, rgba(19, 19, 24, 0.00) 100%), url(../images/banner.png);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
@@ -95,31 +97,32 @@ header nav {
     padding: 100px 0;
 }
 
-.banner-container{
+.banner-container {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.banner-content{
+.banner-content {
     text-align: center;
     width: 60%;
 }
 
-.banner-content h2{
+.banner-content h2 {
     color: #FFF;
     font-size: 64px;
     font-weight: 800;
     padding-bottom: 20px;
 }
-.banner-content p{
+
+.banner-content p {
     color: #FFF;
     font-size: 16px;
-    line-height: 26px; 
+    line-height: 26px;
     padding-bottom: 40px;
 }
 
-.banner-options{
+.banner-options {
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.30);
     padding: 16px;
@@ -130,7 +133,7 @@ header nav {
     margin: 0 auto;
 }
 
-.banner-options input{
+.banner-options input {
     padding: 15px;
     outline: 0;
     border-radius: 8px;
@@ -138,12 +141,12 @@ header nav {
     width: 20%;
 }
 
-.banner-options input::placeholder{
+.banner-options input::placeholder {
     color: rgba(19, 19, 24, 0.50);
     font-size: 16px;
 }
 
-.banner-options select{
+.banner-options select {
     padding: 15px;
     outline: 0;
     border: 0;
@@ -153,11 +156,11 @@ header nav {
     width: 20%;
 }
 
-.banner-button{
+.banner-button {
     width: 20%;
 }
 
-.banner-button button{
+.banner-button button {
     padding: 14px 26px;
     border-radius: 8px;
     background: #FF5400;
@@ -168,40 +171,41 @@ header nav {
     font-weight: 700;
     cursor: pointer;
 }
-.banner-button button i{
+
+.banner-button button i {
     margin-right: 5px;
 }
 
 /* popular part start */
-#popular{
+#popular {
     margin: 100px 0;
 }
 
-.popular-container{
+.popular-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 50px;
 }
 
-.popular-text h2{
+.popular-text h2 {
     color: #131318;
     font-size: 40px;
     font-weight: 800;
     padding-bottom: 12px;
 }
 
-.popular-text p{
+.popular-text p {
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
     line-height: 26px;
     padding: 12px 0;
 }
 
-.popular-text ul{
+.popular-text ul {
     padding-left: 20px;
 }
 
-.popular-text ul li{
+.popular-text ul li {
     list-style: disc;
     color: rgba(19, 19, 24, 0.70);
     font-size: 16px;
@@ -209,11 +213,11 @@ header nav {
     padding: 8px 0;
 }
 
-.popular-button{
+.popular-button {
     margin-top: 30px;
 }
 
-.popular-button button{
+.popular-button button {
     padding: 14px 26px;
     border-radius: 8px;
     background: #FF5400;
@@ -225,30 +229,109 @@ header nav {
     cursor: pointer;
 }
 
-.popular-image img{
+.popular-image img {
     width: 100%;
 }
 
 /* destination part start */
 
-.destination-head{
+.destination-head {
     width: 50%;
     margin: 0 auto;
     padding-bottom: 40px;
 }
 
-.destination-head h2{
+.destination-head h2 {
     color: #131318;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
     padding-bottom: 20px;
 }
-.destination-head P{
+
+.destination-head P {
     color: rgba(19, 19, 24, 0.70);
     text-align: center;
     font-size: 16px;
     line-height: 26px;
+}
+
+.destination-galley-top {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.dgt-first-img {
+    border-radius: 16px;
+    position: relative;
+}
+
+.dgt-second-img {
+    border-radius: 16px;
+    position: relative;
+}
+
+.overlay-text {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 99%;
+    border-radius: 16px;
+    background: linear-gradient(0deg, rgba(19, 19, 24, 0.20) 0%, rgba(19, 19, 24, 0.20) 100%);
+}
+
+.overlay-text h4 {
+    position: relative;
+    top: 50%;
+    text-align: center;
+    color: #FFF;
+    font-size: 28px;
+    font-weight: 800;
+    text-transform: capitalize;
+}
+
+.destination-galley-middle {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+.dgm-first-img {
+    border-radius: 16px;
+    position: relative;
+}
+
+.dgm-second-img {
+    border-radius: 16px;
+    position: relative;
+}
+
+.dgm-third-img {
+    border-radius: 16px;
+    position: relative;
+}
+
+.destination-galley-bottom {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.dgb-first-img {
+    border-radius: 16px;
+    position: relative;
+}
+
+.dgb-second-img {
+    border-radius: 16px;
+    position: relative;
+}
+
+.destination-galley img {
+    width: 100%;
 }
 
 
@@ -262,12 +345,12 @@ header nav {
 
 
 
-@media only screen and (max-width: 600px){
-    .container{
+@media only screen and (max-width: 600px) {
+    .container {
         padding: 0 30px;
     }
 
-    header nav{
+    header nav {
         padding: 20px 0;
     }
 
@@ -276,18 +359,18 @@ header nav {
     }
 
     .nav-icon-right h2 {
-       font-size: 24px;
+        font-size: 24px;
     }
 
     .nav-links ul {
         display: none;
     }
 
-    .nav-icon{
+    .nav-icon {
         gap: 0;
     }
 
-    .nav-hamburger{
+    .nav-hamburger {
         display: block;
         font-size: 24px;
     }
@@ -338,7 +421,7 @@ header nav {
         margin: 30px 0;
     }
 
-    .popular-container{
+    .popular-container {
         grid-template-columns: repeat(1, 1fr);
     }
 }
