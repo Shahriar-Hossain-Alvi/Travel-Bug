@@ -490,6 +490,128 @@ header nav {
     width: calc(50% - 20px);
 }
 
+/* deals part start */
+#deals{
+    margin-bottom: 100px;
+}
+
+.deals-head{
+    width: 60%;
+    padding-bottom: 40px;
+    margin: 0 auto;
+}
+
+.deals-head h2{
+    color: #131318;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.deals-head p{
+    color: rgba(19, 19, 24, 0.70);
+    text-align: center;
+    font-size: 16px;
+    line-height: 26px;
+
+}
+
+/* first deal */
+
+.first-deal{
+    background: url(../images/deals-1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 70px 0;
+    display: flex;
+    justify-content: right;
+    margin-bottom: 25px;
+}
+
+.about-first-deal{
+    width: 40%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    padding: 50px;
+    margin-right: 60px;
+    background: rgba(255, 255, 255, 0.80);
+}
+
+.deal-icons{
+    padding-bottom: 20px;
+}
+
+.deal-icons i{
+    color: #FF5400;
+    margin-right: 5px;
+}
+
+.deal-icons span{
+    color: #5A5A5D;
+    font-size: 16px;
+    margin-right: 5px;
+}
+
+.deal-text h2{
+    color: #131318;
+    font-size: 24px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+.deal-text p{
+    color: #5A5A5D;
+    font-size: 16px;
+    line-height: 26px;
+    padding-bottom: 15px;
+}
+.deal-text h5{
+    color: #FF5400;
+    font-size: 20px;
+    font-weight: 800;
+    padding-bottom: 15px;
+}
+
+.deal-text button{
+    padding: 14px 26px;
+    border-radius: 8px;
+    background: #FF5400;
+    border: 1px solid transparent;
+    color: #FFF;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+/* second deal */
+.second-deal{
+    background: url(../images/deals-2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 16px;
+    padding: 70px 0;
+    display: flex;
+    justify-content: left;
+    margin-bottom: 25px;
+}
+
+.about-second-deal{
+    width: 40%;
+    border-radius: 16px;
+    border: 2px solid #FFF;
+    padding: 50px;
+    margin-left: 60px;
+    background: rgba(255, 255, 255, 0.80);
+}
+
+
+
+
+
 /* team part start */
 #team{
     margin-bottom: 100px;
