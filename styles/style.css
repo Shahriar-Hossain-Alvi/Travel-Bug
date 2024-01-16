@@ -36,7 +36,7 @@ body {
 }
 
 .container {
-    max-width: 1140px;
+    width: 1140px;
     margin: 0 auto;
 }
 
@@ -961,6 +961,88 @@ footer{
 }
 
 
-/* @media screen and (min-width: 992px) and (max-width: 1365px) {
-    
-} */
+@media screen and (min-width: 992px) and (max-width: 1365px) {
+
+    .container{
+        width: 960px;
+        margin: 0 auto;
+    }
+
+    header nav {
+        padding: 40px 20px;
+    }
+
+    .banner-content h2 {
+        font-size: 50px;
+        padding-bottom: 14px;
+    }
+
+    .banner-content p {
+        padding-bottom: 30px;
+    }
+
+    .banner-options {
+        gap: 0px;
+    }
+
+    .banner-button {
+        width: 25%;
+    }
+
+    .popular-text h2 {
+        padding-bottom: 0px;
+    }
+
+    .popular-text ul li {
+        padding: 5px 0;
+    }
+
+    .popular-button {
+        text-align: center;
+    }
+
+    #popular {
+        margin: 80px 0;
+    }
+
+    #destination {
+        margin-bottom: 50px;
+    }
+
+    .destination-galley-top img{
+        width: 100%;
+    }
+    .destination-galley-middle img{
+        width: 100%;
+        height: 100%;
+    }
+    .destination-galley-bottom img{
+        width: 100%;
+        height: 100%;
+    }
+
+    #choose-us {
+        margin-bottom: 70px;
+    }
+
+    #team {
+        margin-bottom: 70px;
+    }
+
+    .member-text h3 {
+        font-size: 18px;
+    }
+
+    #newsletter {
+        margin-bottom: 70px;
+    }
+
+    .newsletter-img{
+        height: 100%;
+    }
+
+    .newsletter-img img{
+        width: 100%;
+        height: 100%;
+    }
+}
